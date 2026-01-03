@@ -32,7 +32,7 @@ res.send(ts.names);
 });
 
 app.get('/hi',(req,res)=>{
-    res.sendFile('C:/Users/unnik/Desktop/Srishti/NodeJS/First/views/abc.html');
+    res.sendFile('./views/abc.html');
 });
 app.listen(PORT,(error)=>{
     if(!error)
